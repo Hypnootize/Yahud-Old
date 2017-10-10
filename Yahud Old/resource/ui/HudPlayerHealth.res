@@ -327,10 +327,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20" // 20
+		"tall"			"20" // 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -342,10 +342,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20"	// 20
+		"tall"			"20" 	// 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -357,10 +357,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20" // 20
+		"tall"			"20" // 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -373,10 +373,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20" // 20
+		"tall"			"20" // 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -388,10 +388,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20" // 20
+		"tall"			"20" // 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -403,10 +403,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"7"
-		"wide"			"0" // 20
-		"tall"			"0" // 20
+		"wide"			"20" // 20
+		"tall"			"20" // 20
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
