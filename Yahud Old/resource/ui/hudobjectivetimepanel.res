@@ -37,32 +37,12 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"visible"					"0"
+			"wide"						"0"
 		}
     }
 	
-	"TimePanelBG2"
-    {
-		"ControlName"					"ImagePanel"
-		"fieldName"						"TimePanelBG2"
-		"xpos"							"52"
-		"ypos"							"-3"
-		"zpos"							"1"
-		"wide"							"48"
-		"tall"							"18"
-		"visible"						"1"
-		"enabled"						"1"
-		"fillcolor"						"50 50 50 255"
-		
-		if_match
-		{
-			"visible"			"0"
-			"wide"				"0"
-		}
-    }
-	
-    "WaitingForPlayersLabel"
+	"WaitingForPlayersLabel"
     {
         "ControlName"       			"CExLabel"
         "fieldName"     				"WaitingForPlayersLabel"
@@ -83,8 +63,8 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"visible"					"0"
+			"wide"						"0"
 		}
     }    
 	
@@ -109,8 +89,8 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"visible"					"0"
+			"wide"						"0"
 		}
     }       
 	
@@ -135,8 +115,8 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"visible"					"0"
+			"wide"						"0"
 		}
     } 
 	
@@ -161,8 +141,8 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"visible"					"0"
+			"wide"						"0"
 		}
     } 
 	
@@ -170,53 +150,43 @@
     {
         "ControlName"           		"CTFProgressBar"
         "fieldName"        				"TimePanelProgressBar"
-        "xpos"              			"67"
+        "xpos"              			"9999"
         "ypos"              			"9999"
     }
     "ServerTimeLimitLabelBG"
     {
         "ControlName"                	"CExLabel"
         "fieldName"                		"ServerTimeLimitLabelBG"
-        "wide"                        	"0"
-        "tall"                        	"0"
-        "visible"                		"0"
-        "enabled"                		"0"
+		"xpos"              			"9999"
+        "ypos"              			"9999"
     }
 	"WaitingForPlayersBG"
     {
         "ControlName"               	"CExLabel"
         "fieldName"                		"WaitingForPlayersBG"
-		"wide"                        	"0"
-        "tall"                        	"0"
-        "visible"                		"0"
-        "enabled"                		"0"
+		"xpos"              			"9999"
+        "ypos"              			"9999"
     }
 	"OvertimeBG"
     {
         "ControlName"                	"CExLabel"
         "fieldName"                		"OvertimeBG"
-		"wide"                        	"0"
-        "tall"                        	"0"
-        "visible"                		"0"
-        "enabled"                		"0"
+		"xpos"              			"9999"
+        "ypos"              			"9999"
           			
     }
     "SetupBG"
     {
         "ControlName"                	"CExLabel"
         "fieldName"                		"SetupBG"
-		"wide"                        	"0"
-        "tall"                        	"0"
-        "visible"                		"0"
-        "enabled"                		"0"
+		"xpos"              			"9999"
+        "ypos"              			"9999"
     } 
 	"SuddenDeathBG"
     {
         "ControlName"                	"CExLabel"
         "fieldName"                		"SuddenDeathBG"
-        "wide"                        	"0"
-        "tall"                        	"0"
-        "visible"                		"0"
-        "enabled"                		"0"
+        "xpos"              			"9999"
+        "ypos"              			"9999"
     }	
 }
