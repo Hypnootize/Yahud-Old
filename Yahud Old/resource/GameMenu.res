@@ -7,31 +7,6 @@
 		"OnlyAtMenu" "1"
 	}
 
-	"QuickplayButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "play_mvm"
-		"OnlyAtMenu" "1"
-	}
-    "PlayCompButton"
-	{
-		"label" "#MMenu_PlayComp" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers" 
@@ -97,12 +72,6 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-	}
 	"DisconnectButton"
 	{
 		"label" "Disconnect"
