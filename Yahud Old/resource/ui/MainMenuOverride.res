@@ -341,12 +341,12 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-330"
-		"ypos"			"cs-0.5-190"
+		"xpos"			"-230"
+		"ypos"			"cs-0.5-185"
 
 		"zpos"			"1"
-		"wide"			"1000"
-		"tall"			"1000"
+		"wide"			"800"
+		"tall"			"800"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
