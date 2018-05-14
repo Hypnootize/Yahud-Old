@@ -15,6 +15,13 @@
         "textAlignment"                	"west"
         "font"                        	"Bold14"
         "fgcolor"       				"White"
+		
+		if_match
+		{
+			"xpos"                        "65"
+			"ypos"                        "13"
+			"font"                        "Bold10"
+		}
     }
 	
     "TimePanelBG"
@@ -37,8 +44,7 @@
 		
 		if_match
 		{
-			"visible"					"0"
-			"wide"						"0"
+			"xpos"			"9999"
 		}
     }
 	
@@ -63,8 +69,7 @@
 		
 		if_match
 		{
-			"visible"					"0"
-			"wide"						"0"
+			"xpos"			"9999"
 		}
     }    
 	
@@ -89,8 +94,7 @@
 		
 		if_match
 		{
-			"visible"					"0"
-			"wide"						"0"
+			"xpos"			"9999"
 		}
     }       
 	
@@ -115,8 +119,7 @@
 		
 		if_match
 		{
-			"visible"					"0"
-			"wide"						"0"
+			"xpos"			"9999"
 		}
     } 
 	
@@ -141,8 +144,7 @@
 		
 		if_match
 		{
-			"visible"					"0"
-			"wide"						"0"
+			"xpos"			"9999"
 		}
     } 
 	
