@@ -214,7 +214,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"MainMenu"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"WhiteS"
 			"textAlignment"	"north-east"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -237,7 +237,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"MainMenu"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"WhiteS"
 			"textAlignment"	"north-east"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -255,8 +255,8 @@
 			"fonts"
 			{
 				"0"		"MainMenu"
-				"1"		"MainMenu"
-				"2"		"MainMenu"
+				"1"		"Bold12"
+				"2"		"Bold10"
 			}
 		}
 
@@ -272,7 +272,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"MainMenu"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"WhiteS"
 			"textAlignment"	"north-east"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -290,8 +290,8 @@
 			"fonts"
 			{
 				"0"		"MainMenu"
-				"1"		"MainMenu"
-				"2"		"MainMenu"
+				"1"		"Bold12"
+				"2"		"Bold10"
 			}
 
 			"colors"

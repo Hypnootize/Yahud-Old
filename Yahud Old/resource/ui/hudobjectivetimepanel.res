@@ -53,7 +53,7 @@
         "ControlName"       			"CExLabel"
         "fieldName"     				"WaitingForPlayersLabel"
         "xpos"          				"26"
-        "ypos"          				"30"
+        "ypos"          				"17"
         "zpos"          				"-1"
         "wide"          				"100"
         "tall"          				"14"
@@ -66,22 +66,17 @@
         "wrap"          				"0"
         "font"          				"Medium10"
         "fgcolor"           			"White"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
     }    
 	
     "OvertimeLabel"
     {
         "ControlName"       			"CExLabel"
         "fieldName"         			"OvertimeLabel"
-        "xpos"              			"c-40"
-        "ypos"             			 	"30"
-        "zpos"             			 	"-1"
-        "wide"              			"80"
-        "tall"             			 	"15"
+        "xpos"          				"26"
+        "ypos"          				"17"
+        "zpos"          				"-1"
+        "wide"          				"100"
+        "tall"          				"14"
         "visible"       				"0"
         "enabled"       				"1"
         "labelText"     				"OVERTIME"
@@ -89,24 +84,19 @@
         "dulltext"      				"0"
         "brighttext"        			"0"
         "wrap"         					"0"
-        "font"          				"Regular12"
+        "font"          				"Medium10"
         "fgcolor"           			"White"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
     }       
 	
     "SuddenDeathLabel"
     {
         "ControlName"       			"CExLabel"
         "fieldName"         			"SuddenDeathLabel"
-        "xpos"              			"c-40"
-        "ypos"              			"30"
-        "zpos"              			"-1"
-        "wide"              			"80"
-        "tall"              			"15"
+        "xpos"          				"26"
+        "ypos"          				"17"
+        "zpos"          				"-1"
+        "wide"          				"100"
+        "tall"          				"14"
         "visible"           			"0"
         "enabled"           			"1"
         "labelText"         			"SUDDEN DEATH"
@@ -114,24 +104,19 @@
         "dulltext"          			"0"
         "brighttext"            		"0"
         "wrap"              			"0"
-        "font"              			"Regular12"
+        "font"              			"Medium10"
         "fgcolor"               		"White"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
     } 
 	
 	"SetupLabel"
     {
         "ControlName"       			"CExLabel"
         "fieldName"         			"SetupLabel"
-        "xpos"              			"26"
-        "ypos"              			"30"
-        "zpos"              			"-1"
-        "wide"             			 	"100"
-        "tall"              			"14"
+         "xpos"          				"26"
+        "ypos"          				"17"
+        "zpos"          				"-1"
+        "wide"          				"100"
+        "tall"          				"14"
         "visible"           			"0"
         "enabled"           			"1"
         "labelText"         			"SETUP"
@@ -141,11 +126,6 @@
         "wrap"             			 	"0"
         "font"              			"Medium10"
         "fgcolor"           			"White"
-		
-		if_match
-		{
-			"xpos"			"9999"
-		}
     } 
 	
 	"TimePanelProgressBar"

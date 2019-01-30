@@ -345,8 +345,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"340"
+		"xpos"			"c-288"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -372,8 +372,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"340"
+		"xpos"			"c-260"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -381,15 +381,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "WhiteS"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"340"
+		"xpos"			"c-210"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -406,7 +406,7 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"DragToNextPageButton"
 	{

@@ -76,7 +76,7 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 120 160 255"
+		"fillcolor"		"BlueTeam"
 
 	}
 	
@@ -91,7 +91,7 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"180 50 50 255"
+		"fillcolor"		"RedTeam"
 	}
 	
 	"TimerBG"

@@ -22,34 +22,32 @@ Scheme
 		//This is a decent site for finding the color you would like: http://www.colorspire.com/rgb-color-wheel/
 		//You will need to restart TF2 for any changes to take effect!
 		
-		//"Control Name"		"R   G   B   Transparency"	//Description
+		//"Control Name"	"R   G   B   Transparency"	//Description
 		
-		"Damage"                        "255 255 0 255"		//Damage display
+		"Damage"			"255 255 0 255"			//Damage display
 
-		"Ammo"                          "255 255 255 215"		//Current Clip
-		"AmmoReserve"                   "255 255 255 215"		//Total reserve
+		"Ammo"				"255 255 255 215"		//Current Clip
+		"AmmoReserve"		"255 255 255 215"		//Total reserve
 
 		"Health"			"255 255 255 215"		//Normal health color
 		
 		"Buff"				"21 200 100 255" 		//Boosted health color
-		"SpecBuff"			"21 190 100 200"			//Darker color for SpecHUD
+		"SpecBuff"			"21 190 100 200"		//Darker color for SpecHUD
 		
 		"LowHP"				"230 50 50 255"			//Low health and ammo warning color
 		"RedHP"				"230 50 50 255"			//"Low Ammo/HP" animation flash color
 		"LowAmmo"			"230 50 50 255"			//Low health and ammo warning color
 		"RedAmmo"			"230 50 50 255"			//"Low Ammo/HP" animation flash color
-		   "LowT"			"0 255 0 214"			//Red animation for underline
-		   "LowS"			"255 0 0 255"			//Flash color for underline
+		"LowT"				"0 255 0 214"			//Red animation for underline
+		"LowS"				"255 0 0 255"			//Flash color for underline
 			
 		"UberLabel"			"21 207 100 255" 		//Uber ready color %
 		"UberMeter"			"21 207 100 255" 		//Uber ready color for meter	
-		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
-		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
+		"UberLabelFlash"	"15 95 14 175"			//Uber ready flash color %
+		"UberMeterFlash"	"15 95 14 100"			//Uber ready flash color meter	
 
-		"Select"			"21 207 100 255"			//This is the hover color for buttons
+		"Select"			"21 207 100 255"		//This is the hover color for buttons
 		
-
-
 		//More options, partially for custom options like the line-effect or the colorful main-menu
 		
 		"EngineerPanelBG"	"0 0 0 107"				// change this to "0 0 0 0" to remove the BG for the not-built panel
@@ -59,13 +57,13 @@ Scheme
 		
 		"MvMBG"				"225 37 205 175"		//MvM panels purple color
 		
-		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
+		"MenuBGColor"		"0 124 88 255"			//Color option for alt main menu
 		
-		"Underline"			"0 0 0 0"			//Blank base color for HP and ammo underline
+		"Underline"			"0 0 0 0"				//Blank base color for HP and ammo underline
 		
-		"HudBG"				"0 0 0 214"			//Black HUD background
-		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
-										//make last value 0 to remove them, or 255 to make them black
+		"HudBG"				"0 0 0 214"				//Black HUD background
+		"HudShadow"			"0 0 0 57"				//Used for shadows on various numbers
+													//make last value 0 to remove them, or 255 to make them black
 
 		"HudBGC"			"21 207 100 255" 		//General color background
 		"HudBGCT"			"25 225 74 175"			//General color background transparent
@@ -74,15 +72,15 @@ Scheme
 		
 		// Base HUD Colors		
 		
-		"ButtonBG"			"107 107 107 255"					//Standard button color
-		"ButtonArmed"			"54 54 54 255"				//Armed color
+		"ButtonBG"			"107 107 107 255"			//Standard button color
+		"ButtonArmed"		"54 54 54 255"				//Armed color
 		"ButtonSelect"		"27 27 27 255"
 		
-		"yAHUDBlue" 			"40 140 247 255"			//Logo hover color
+		"yAHUDBlue"			"40 140 247 255"			//Logo hover color
 		
 		"GrayBG"			"74 74 74 255"				//MenuBG
-		"GrayBGDark"			"57 57 57 255"				//Darker MenuBG
-		"GrayBGDarkest"			"27 27 27 255"	
+		"GrayBGDark"		"57 57 57 255"				//Darker MenuBG
+		"GrayBGDarkest"		"27 27 27 255"	
 		"GrayText"			"127 127 127 255"			//Text for some menu entries
 		"FrameGray"			"142 142 142 255"
 		"BlackBorder"		"17 17 17 255"
@@ -92,8 +90,6 @@ Scheme
 		"GreenT"			"25 225 74 105"
 		
 		"GreenDark"			"0 124 88 255"				//Green for white highlights
-		
-		
 		
 		"White"				"255 255 255 175"			//Transparent white for text
 		"WhiteS"			"225 225 225 255"			//Matching solid white
@@ -110,7 +106,7 @@ Scheme
 		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
 		
 		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
-		"HudBGT"			"0 0 0 100"				//
+		"HudBGT"			"0 0 0 100"					//
 		
 		
 		// Base Colors TF2
@@ -568,403 +564,6 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		
-
-		
-				
-
-
-		"CrosshairAASmall"
-       		 {
-            		"1"
-           		 {
-                "name"        "Crosshair"
-                "tall"        "16"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
-            }
-        }
-        "CrosshairOLSmall"
-        {
-            "1"
-            {
-                "name"        "Crosshair"
-                "tall"        "13"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
-            }
-        }
-        "CrosshairAA"
-        {
-            "1"
-            {
-                "name"        "Crosshair"
-                "tall"        "20"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
-            }
-        }
-        "CrosshairOL"
-        {
-            "1"
-            {
-                "name"        "Crosshair"
-                "tall"        "20"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
-            }
-        }
-        "CrosshairAABig"
-        {
-            "1"
-            {
-                "name"        "Crosshair"
-                "tall"        "24"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
-            }
-        }
-        "CrosshairOLBig"
-        {
-            "1"
-            {
-                "name"        "Crosshair"
-                "tall"        "24"
-                "additive"    "0"
-                "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
-            }
-	}
-		"fogCrosshair"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		"fogCrosshairSmall"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		
-		
-		"BarCrosshair"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"32"
-				"additive"		"0"
-				"antialias"	"1"
-				"outline" "1"
-			}
-		}
-		
-		
-		
-		"SymbolS"
-		{
-			"1"
-			{
-				"name"			"Entypo"
-				"tall"		"25"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-  
-		"BlocksSharp64"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"64"
-				"additive"	"0"
-				"antialias" "0"
-			}
-		}
-	
-		"MainMenu"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Heavy"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		
-		"Default"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"range"		"0x0000 0x017F"
-				"yres"		"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"11"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"18"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-
-
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"LightNumbers"
-				"tall"		"1"
-				"yres"		"480 599"
-				"antialias" 	"0"
-			}
-			"2"
-			{
-				"name"		"LightNumbers"
-				"tall"		"2"
-				"yres"	"600 719"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"LightNumbers"
-				"tall"		"5"
-				"yres"	"720 767"
-				"antialias" 	"1"
-			}
-			"4"
-			{
-				"name"		"LightNumbers"
-				"tall"		"6"
-				"yres"	"768 899"
-				"antialias" 	"1"
-			}
-			"5"
-			{
-				"name"		"LightNumbers"
-				"tall"		"9"
-				"yres"	"900 1023"
-				"antialias" 	"1"
-			}
-			"6"
-			{
-				"name"		"LightNumbers"
-				"tall"		"6"
-				"antialias" 	"1"
-			}
-		}
-		DefaultLarge
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"18"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"28"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"28"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias" 	"1"
-			}
-			"6"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-			"7"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"antialias" 	"1"
-			}
-		}
-		CenterPrintText
-		{
-			// note that this scales with the screen resolution
-			"1"
-			{
-				"name"	"AvenirLTStd-Medium" [!$OSX]
-				"name"	"AvenirLTStd-Medium" [$OSX]
-				"tall"	"18"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-
-		"PlayerPanelPlayerName"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-				"antialias" 	"1"
-			}
-		}
-
-		HudHintText
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"yres"	"480 599"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"yres"	"600 767"
-				"antialias" 	"1"
-			}
-			"3"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"14"
-				"yres"	"768 1023"
-				"antialias" 	"1"
-			}
-			"4"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
-				"yres"	"1024 1199"
-				"antialias" 	"1"
-			}
-			"5"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
-				"yres"	"1200 10000"
-				"antialias" 	"1"
-			}
-		}
 		
 		"DeathNotice"
 		{
@@ -3514,9 +3113,6 @@ Scheme
 			}
 		}
 		
-		
-		
-		
 		"CircleBG"
 		{
 			"1"
@@ -3568,201 +3164,283 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		"CrossHairKonrWings"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"23"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
 		
-		"CrossHairKonrWingsOutline"
+		"SymbolS"
 		{
 			"1"
 			{
-				"name"		"Garm3nFont"
-				"tall"		"23"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"1"
-			}
-		}
-		
-		"FMCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"40"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairThin"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"24"
-				"weight"	"0"
-				"additive"	"0"
-			}
-		}
-
-		"xHairThinOutline"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"24"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CrossHairCircleSmall"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CrossHairCircleSmaller"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
+				"name"		"Entypo"
 				"tall"		"25"
-				"weight"	"1"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
-		"CrosshairsOutline32"
-		{
-			"1"
-			{
-				"name"		"Crosshairs Regular"
-				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"	"1"
 			}
 		}
-
-		"OmpCrosshairDot"
+  
+		"BlocksSharp64"
 		{
 			"1"
 			{
-				"name" 		"crosshairs"
-				"tall" 		"8"
+				"name"		"Blocks"
+				"tall"		"64"
 				"additive"	"0"
+				"antialias" "0"
+			}
+		}
+	
+		"MainMenu"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"Default"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"range"		"0x0000 0x017F"
+				"yres"		"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"11"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
 				"antialias"	"1"
-				"outline"	"1"
 			}
-		}
-
-		"xHairNormal"
-		{
-			"1"
+			"4"
 			{
-				"name"		"Symbol"
-				"tall"		"30"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"18"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
-		}
-
-		"xHairRequest"
-		{
-			"1"
+			"5"
 			{
-				"name"		"Courier"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
+			"6"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
 		}
 
-		"xHairDotOutline"
+		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
+				"name"		"LightNumbers"
+				"tall"		"1"
+				"yres"		"480 599"
+				"antialias" 	"0"
+			}
+			"2"
+			{
+				"name"		"LightNumbers"
+				"tall"		"2"
+				"yres"	"600 719"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"LightNumbers"
+				"tall"		"5"
+				"yres"	"720 767"
+				"antialias" 	"1"
+			}
+			"4"
+			{
+				"name"		"LightNumbers"
+				"tall"		"6"
+				"yres"	"768 899"
+				"antialias" 	"1"
+			}
+			"5"
+			{
+				"name"		"LightNumbers"
+				"tall"		"9"
+				"yres"	"900 1023"
+				"antialias" 	"1"
+			}
+			"6"
+			{
+				"name"		"LightNumbers"
+				"tall"		"6"
+				"antialias" 	"1"
+			}
+		}
+		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"18"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"22"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"28"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"28"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias" 	"1"
+			}
+			"6"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+			"7"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"antialias" 	"1"
+			}
+		}
+		CenterPrintText
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"name"	"AvenirLTStd-Medium" [!$OSX]
+				"name"	"AvenirLTStd-Medium" [$OSX]
+				"tall"	"18"
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+
+		"PlayerPanelPlayerName"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"antialias" 	"1"
+			}
+		}
+
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"yres"	"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"yres"	"768 1023"
+				"antialias" 	"1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"yres"	"1024 1199"
+				"antialias" 	"1"
+			}
+			"5"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"22"
+				"yres"	"1200 10000"
+				"antialias" 	"1"
 			}
 		}
 
@@ -9244,89 +8922,55 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" 
-		{
-			"font" "resource/fonts/symbol.ttf"
-			"name" "symbol"
-		}
 		"8" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"9" 
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}
-		"10" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"11" 
+		"9" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}	
-		"12" 
+		"10" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
-		}		
-		"13" 
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
 		}
-		"14"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"15" 
+		"11" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
-		}	
-		"16"
-		{
-			"font" "resource/fonts/Entypo.otf"
-			"name" "Entypo"
 		}
-		"17" 
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}
-		"18" 
+		"12" 
 		{
 			"font" "resource/fonts/MediumNumbers.otf"
 			"name" "MediumNumbers"
 		}
-		"19" 
+		"13" 
 		{
 			"font" "resource/fonts/LightNumbers.otf"
 			"name" "LightNumbers"
 		}
-		"20" 
+		"14" 
 		{
 			"font" "resource/fonts/BoldNumbers.otf"
 			"name" "BoldNumbers"
 		}
-
-		 "21"
+		"15"
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
-			"name" "KnucklesCrosses"
+			"font" "resource/fonts/Entypo.otf"
+			"name" "Entypo"
 		}
-
-		 "11" 
-        	{
-            		"font" "resource/fonts/Crosshair.ttf"
-            		"name" "Crosshair"  
-        	}
-		
-		
+		"16"
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"17" 
+		{
+			"font" "resource/fonts/Paula.ttf"
+			"name" "Paula"
+		}
 	}
 }

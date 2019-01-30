@@ -19,7 +19,7 @@
 		"wide"			"211"				//128
 		"tall"	 		"2"	
 		"fillcolor"		"255 255 255 175"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	
 	}

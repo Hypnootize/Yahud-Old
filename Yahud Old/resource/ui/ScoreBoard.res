@@ -367,13 +367,13 @@
 		{
 			"font"			"Light19"
 			"fgcolor"			"Time"
-			"textAlignment"		"center"
-			"textinsetx"	"0"
+			"textAlignment"		"west"
+			"textinsetx"	"5"
 			"use_proportional_insets" "0"
 			"xpos"			"c-295"
-			"ypos"			"r344"
-			"wide"			"402"
-			"tall"			"22"
+			"ypos"			"138"
+			"wide"			"591"
+			"tall"			"19"
 		}
 	}
 	"BluePlayerList"
@@ -498,54 +498,6 @@
 			"visible"		"0"
 		}
 	}
-	"ClassImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ClassImage"
-		"xpos"			"22"
-		"xpos_lodef"	"12"
-		"ypos"			"350"	[$WIN32]
-		"ypos"			"275"	[$X360]
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
-		
-		if_mvm
-		{
-			"visible"		"0"
-			"wide"		"0"
-			"tall"		"0"
-		}
-	}
-	"PlayerNameLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
-		"labelText"		"%playername%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"xpos_lodef"	"105"
-		"ypos"			"377"	[$WIN32]
-		"ypos"			"302"	[$X360]
-		"zpos"			"3"
-		"wide"			"325"	[$WIN32]
-		"wide"			"410"	[$X360]
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}							
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -554,29 +506,6 @@
 		"tall"			"0"
 		"fillcolor"		"White"
 		"visible"		"1"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"PlayerScoreLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerScoreLabel"
-		"font"		"Garm3n20"
-		"labelText"		"%playerscore%"
-		"textAlignment"	"west"
-		"fgcolor"		"White"
-		"xpos"			"c-270"
-		"ypos"			"r115"	
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
 		"enabled"		"1"
 
 		if_mvm
@@ -610,13 +539,14 @@
 		if_mvm
 		{
 			"visible" "1"
-			"font"			"Medium9"
-			"fgcolor"		"White"
-			"textAlignment"		"center"
-			"xpos"			"c-241"
-			"ypos"			"r168"
-			"wide"			"178"
-			"tall" "15"
+			"font"			"Light19"
+			"fgcolor"			"Time"
+			"textAlignment"		"east"
+			"textinsetx"		"5"
+			"xpos"			"c-295"
+			"ypos"			"138"
+			"wide"			"591"
+			"tall"			"19"
 		}	
 	}
 	"LocalPlayerDuelStatsPanel"
@@ -2017,14 +1947,14 @@
 			"visible" "1"
 		}
 	}
-	"MvMBGTopLeft"
+	"MvMBGTop"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopLeft"
+		"fieldName"		"MvMBGTop"
 		"xpos"			"c-295"
 		"ypos"			"138"
 		"zpos"			"-1"
-		"wide"			"405"
+		"wide"			"591"
 		"tall"			"19"
 		"fillcolor"		"HudBGCT"
 		"autoResize"	"0"
@@ -2037,15 +1967,15 @@
 			"visible"			"1"
 		}
 	}
-	"MvMBGTopRight"
+	"MvMBGBottom"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBGTopRight"
-		"xpos"			"c110"
-		"ypos"			"138"
+		"fieldName"		"MvMBGBottom"
+		"xpos"			"c-295"
+		"ypos"			"r156"
 		"zpos"			"-1"
-		"wide"			"187"
-		"tall"			"19"
+		"wide"			"591"
+		"tall"			"12"
 		"fillcolor"		"MvMBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -2055,6 +1985,27 @@
 		if_mvm
 		{
 			"visible"			"1"
+		}
+	}
+	
+	"MVMBGCredits"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"c-295"
+		"ypos"			"r144"
+		"zpos"			"-1"
+		"wide"			"591"
+		"tall"			"65"
+		"fillcolor"		"HudBG"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"	"1"
 		}
 	}
 	

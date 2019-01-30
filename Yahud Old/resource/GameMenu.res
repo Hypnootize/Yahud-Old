@@ -2,103 +2,117 @@
 {
 	"YAHUD"
 	{
-		"label" "yA_HUD"
-		"command" "engine con_enable 1; engine showconsole; clear; echo kritz.me/yahud <> give feedback in the tf.tv thread: teamfortress.tv/forum/thread/8336-yahud <> or here github.com/whayay/yA_HUD"
+		"label" 		"yA_HUD"
+		"command" 		"engine con_enable 1; engine showconsole; clear; echo kritz.me/yahud <> give feedback in the tf.tv thread: teamfortress.tv/forum/thread/8336-yahud <> or here github.com/whayay/yA_HUD"
 	}
-
+	
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
-		"command" "OpenServerBrowser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
+		"label" 		"Browse Servers" 
+		"command" 		"OpenServerBrowser"
+		"subimage" 		""
 	}
 	"ConsoleButton"
 	{
-		"label" "Console"
-		"command" "engine con_enable 1;toggleconsole"
-	} 
-	"DEMOUI"
-	{
-		"label" "DemoUI"
-		"command" "engine demoui"
+		"label" 		"Console"
+		"command" 		"engine con_enable 1;toggleconsole"
+		"subimage" 		""
 	}
-	"ToggleScoreboard"
+	"SettingsButton"
 	{
-		"label" "Scoreboard"
-		"command" "engine toggle cl_hud_minmode"
+		"label" 		"Options"
+		"command" 		"OpenOptionsDialog"
+		"subimage" 		""
 	}
-	"QuitButton"
+	"TF2SettingsButton"
 	{
-		"label" "#TF_Quit_Title"
-		"command" "engine replay_confirmquit"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
-	}
-	"GeneralStoreButton"
-	{
-		"label" "Store"
-		"command" "engine open_store"
+		"label" 		"Advanced Options"
+		"command" 		"opentf2options"
+		"subimage" 		""
 	}
 	"CharacterSetupButton"
 	{
-		"label" "Items"
-		"command" "engine open_charinfo"
+		"label" 		"Items"
+		"command" 		"engine open_charinfo"
+		"subimage" 		""
 	}
+	"ReplayBrowserButton"
+	{
+		"label" 		"Replays"
+		"command" 		"engine replay_reloadbrowser"
+		"subimage" 		""
+	}
+	"GeneralStoreButton"
+	{
+		"label" 		"Store"
+		"command" 		"engine open_store"
+		"subimage"		""
+	}
+	"SteamWorkshopButton"
+	{
+		"label" 		"Workshop"
+		"command" 		"engine OpenSteamWorkshopDialog"
+		"subimage" 		""
+	}
+	"DEMOUI"
+	{
+		"label" 		"DemoUI"
+		"command" 		"engine demoui"
+		"subimage"		""
+	}
+	"ToggleScoreboard"
+	{
+		"label" 		"Scoreboard"
+		"command" 		"engine toggle cl_hud_minmode"
+		"subimage" 		""
+	}
+	"QuitButton"
+	{
+		"label" 		"Quit"
+		"command" 		"engine replay_confirmquit"
+		"subimage" 		""
+		"OnlyAtMenu" 	"1"
+	}
+	
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"DisconnectButton"
 	{
-		"label" "Disconnect"
-		"command" "engine disconnect"
+		"label" 		"Disconnect"
+		"command" 		"engine disconnect"
+		"subimage" 		""
 		"OnlyInGame"	"1"
+	}
+	"CreateServerButton"
+	{
+		"label"			""
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" 	"1"
+		"tooltip" 		"Create Server"
 	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyAtMenu" "0"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"OnlyAtMenu" 	"0"
+		"subimage" 		"icon_checkbox"
+		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage" 		"glyph_muted"
+		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyAtMenu" "0"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"OnlyAtMenu" 	"0"
+		"subimage" 		"icon_whistle"
+		"tooltip" 		"#MMenu_RequestCoach"
 	}
 }
