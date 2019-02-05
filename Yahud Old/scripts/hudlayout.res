@@ -122,9 +122,6 @@
 	
 	
 	
-	
-	
-	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -142,7 +139,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c35"
-		"ypos"	"r150"
+		"ypos"	"r148"
 		"wide"	"200"
 		"tall"	"80"
 	}
