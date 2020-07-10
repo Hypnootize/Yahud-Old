@@ -3,46 +3,20 @@
 	"HudStopWatchBG"
 	{
 		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudStopWatchBG"
-		"xpos"			"0"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"145"
-		"tall"			"31"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		"fieldName"			"HudStopWatchBG"
+		"xpos"				"9999"
 	}
 
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"5"
-		"ypos"			"12"
-		"zpos"			"-1"
-		"wide"			"17"
-		"tall"			"17"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ico_time_10"
-		"scaleImage"		"1"	
-		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		"fieldName"			"StopWatchImageCaptureTime"
+		"xpos"				"9999"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"0"
 		"ypos"				"0"	
@@ -51,10 +25,15 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
+		
+		if_comp
+		{
+			"ypos"			"40"
+		}
 
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Regular16"
 			"fgcolor"		"10 12 14 255"
@@ -65,25 +44,39 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
-		}	
+			"textAlignment"	"center"
+			
+			if_comp
+			{
+				"xpos"			"c-110"
+				"textAlignment"	"east"
+				"font"			"Regular14"
+				"fgcolor"		"255 255 255 175"
+			}
+		}
+		
 		"TimePanelValueBG"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValueBG"
 			"font"			"BlocksSharp64"
-			"fgcolor"	"White"
+			"fgcolor"		"White"
 			"labelText"		"1"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c67"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"32"
 			"tall"			"16"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_comp
+			{
+				"wide"		"0"
+			}
 		}
 		"TimePanelValueBG2"
 		{
@@ -102,6 +95,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_comp
+			{
+				"wide"		"0"
+			}
 		}
 		"StopWatchPointsLabelBG"
 		{
@@ -121,6 +119,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
+			
+			if_comp
+			{
+				"wide"		"0"
+			}
 		}
 		"StopWatchPointsLabelBG2"
 		{
@@ -140,26 +143,41 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
+			
+			if_comp
+			{
+				"wide"		"0"
+			}
 		}
 	}
 
 	"StopWatchScoreToBeat"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
 		"font"			"Regular16"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		"fgcolor"		"10 12 14 255"
 		"xpos"			"c-164"
 		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"57"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		if_comp
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"38"
+			"font"			"Regular14"
+			"textAlignment"	"center"
+			"fgcolor"		"255 255 255 175"
+			"proportionaltoparent" "1"
+		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -179,6 +197,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		if_comp
+		{
+			"xpos"			"c25"
+			"ypos"			"38"
+			"font"			"Regular14"
+			"fgcolor"		"255 255 255 175"
+			"proportionaltoparent" "1"
+		}
 	}
 	
 	"StopWatchLabel"

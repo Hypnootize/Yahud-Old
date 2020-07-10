@@ -1,6 +1,6 @@
 #base "HudItemEffectMeter.res"
 
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter_Heavy.res"
 {
 	HudItemEffectMeter
 	{
