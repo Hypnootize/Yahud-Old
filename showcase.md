@@ -55,7 +55,7 @@
 ![Destroy Menu](../screenshots/18_Destroy_Menu.jpg?raw=true)
 
 ## EUREKA EFFECT MENU
-![Eureka Effect](../screenshots/19_Eureka_Effect.jpg?raw=true)
+![Eureka Effect](../screenshots/19_Eureka_Menu.jpg?raw=true)
 
 ## MVM
 ![MvM](../screenshots/20_MvM.jpg?raw=true)
